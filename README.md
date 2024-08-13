@@ -18,4 +18,10 @@ In this project MySQL acts as the OLTP (Online Transaction Processing) and throu
 
 ### Tools and Techniques used
 
-Data analysis was done through MySQ, whereas Data Cleaning and ETL using PowerQuery Editor. Started off with data modelling by mapping the entities which eventually created a star schema with fact table been the sales transactions and the rest been dimension tables.
+Data analysis was done through MySQL, whereas Data Cleaning and ETL using PowerQuery Editor. Started off with data modelling by mapping the entities which eventually created a star schema with fact table been the sales transactions and the rest been dimension tables. The sales analysis dashboard was created using Power Bi, allowing dashboard to be accessed using the mobile as well. 
+
+### Analysis 
+
+The Sales Analysis dashboard allows the stakeholders to choose a year and a month (optional) to futher analyze information such as revenue, sales quantity, revenue by market, sales quantity by market, top 5 customers as well as products and also the revenue trend. 
+
+
