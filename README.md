@@ -6,10 +6,9 @@ Atliq hardware is a company which supplies computer hardware and peripherals to 
 
 ### Project Planning and Data Discovery
 
-
 In this project, AIMS grid is used as a project planning tool to identify the purpose, stakeholders, end -result and success criteria.
-
 Given below is a draft of the above projects’ AIMS grid.
+
 ##### Purpose – to unlock sales insights that are not visible before for sales team for decision support and automate them to reduced manual time spent in data gathering. 
 ##### Stakeholders – sales director, marketing team, customer service team, data analytics team, IT
 ##### End-result – an automated dashboard providing quick and latest sales insights in order to support data driven decision making. 
@@ -17,3 +16,6 @@ Given below is a draft of the above projects’ AIMS grid.
 
 In this project MySQL acts as the OLTP (Online Transaction Processing) and through the ETL a data warehouse would be built for the data gathering stage which will not affect MySQL since live transactions are happening. 
 
+### Tools and Techniques used
+
+Data analysis was done through MySQ, whereas Data Cleaning and ETL using PowerQuery Editor. Started off with data modelling by mapping the entities which eventually created a star schema with fact table been the sales transactions and the rest been dimension tables.
